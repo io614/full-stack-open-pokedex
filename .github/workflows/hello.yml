@@ -3,8 +3,8 @@ name: Hello World
 on: [watch]
 
 jobs:
-  Say-Hello:
+  Say Hello:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Hello World!"
+        echo "Hello World!"
