@@ -28,3 +28,4 @@ jobs:
           heroku_email: "ivanongjiaen@gmail.com"
           healthcheck: "https://tranquil-chamber-10684.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
